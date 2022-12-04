@@ -1,0 +1,77 @@
+#main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  margin-top: 50px;
+}
+
+.movie-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: var(--dark-blue);
+  height: 200px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+  box-shadow:
+  12.4px 12.5px 32.1px rgba(0, 0, 0, 0.08),
+  99px 100px 256px rgba(0, 0, 0, 0.16);
+
+  font-size: 18px;
+}
+
+.movie-image{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 50%;
+
+  box-shadow:
+  4.5px 4.5px 11.6px rgba(0, 0, 0, 0.16),
+  12.4px 12.5px 32.1px rgba(0, 0, 0, 0.23),
+  29.8px 30.1px 77.2px rgba(0, 0, 0, 0.3),
+  99px 100px 256px rgba(0, 0, 0, 0.46);
+}
+
+.movie-title{
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.movie-infos{
+  margin-left: 30px;
+
+  color: var(--white);
+}
+
+.fav-button-text, .movie-rate{
+  margin-left: 5px;
+}
+
+.fav-container{
+  margin-left: 40px;
+}
+
+.fav-image{
+  height: 18px;
+}
+
+#fav-button:hover img{
+  content:url("/img/filled-heart.svg");
+}
+
+.description{
+  max-width: 600px;
+  width: 100%;
+  color: var(--light-gray);
+}

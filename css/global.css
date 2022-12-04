@@ -1,0 +1,43 @@
+:root{
+  --background-dark-blue: #17162E;
+  --dark-blue: #1D1C3C;
+  --gray: #454558;
+  --light-gray: #ACACAC;
+  --purple: #706EA8; 
+  --white: #FFFFFF;
+}
+
+*{
+  margin: 0px;
+}
+
+body{
+  background-color: var(--background-dark-blue);
+  
+  font-family: 'Kumbh Sans', Arial, sans-serif;
+
+  padding: 60px 110px 0px 110px;
+  height: 100%;
+}
+
+.button{
+  background-color: #fffff000;
+  border: none;
+  box-shadow: none;
+
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.container-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-row{
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}

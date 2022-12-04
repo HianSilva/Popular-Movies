@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Filmes Populares</title>
+</head>
+<body>
+  <header id="header">
+    <h1 id="header-title">Filmes Populares</h1>
+    <section id="filter-area">
+      <div id="search-bar-container">
+      <input type="text" name="searchbar" id="searchbar" placeholder="Digite algum filme para pesquisar...">
+      <button type="button" class="button" id="search-button">
+        <img src="img/search-icon.svg" alt="">
+      </button>
+      </div>
+      <div class="container-row">
+        <input type="checkbox" name="favorite-filter" id="favorite-filter">
+        <p id="filter-text">Exibir apenas meus filmes favoritos</p>
+      </div>
+    </section>
+  </header>
+  <main id="main">
+    <section class="movie-card">
+      <div class="container-row">
+        <img src="img/movie-image.png" alt="" class="movie-image">
+        <div class="movie-infos container-column">
+          <p class="movie-title">
+            As Branquelas (2004)
+          </p>
+          <div class="container-row">
+            <div class="container-row">
+              <img src="img/star.svg" alt="a yellow star">
+              <p class="movie-rate">9.2</p>
+            </div>
+            <div class="fav-container container-row">
+              <button type="button" class="button" id="fav-button">
+                <img src="img/empty-heart.svg" class="fav-image" alt="a empty red heart">
+              </button>
+              <p class="fav-button-text">Favoritar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat adipisci harum eligendi repellat consectetur modi, facilis earum assumenda perferendis, dolorum neque eaque, amet libero officia deserunt accusamus explicabo dolores natus?
+      </p>
+    </section>
+    <section class="movie-card">
+      <div class="container-row">
+        <img src="img/movie-image.png" alt="" class="movie-image">
+        <div class="movie-infos container-column">
+          <p class="movie-title">
+            As Branquelas (2004)
+          </p>
+          <div class="container-row">
+            <div class="container-row">
+              <img src="img/star.svg" alt="a yellow star">
+              <p class="movie-rate">9.2</p>
+            </div>
+            <div class="fav-container container-row">
+              <button type="button" class="button" id="fav-button">
+                <img src="img/empty-heart.svg" class="fav-image" alt="a empty red heart">
+              </button>
+              <p class="fav-button-text">Favoritar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat adipisci harum eligendi repellat consectetur modi, facilis earum assumenda perferendis, dolorum neque eaque, amet libero officia deserunt accusamus explicabo dolores natus?
+      </p>
+    </section>
+  </main>
+</body>
+</html>
