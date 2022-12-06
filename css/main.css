@@ -29,7 +29,9 @@
 }
 
 .movie-image{
-  width: 150px;
+  display: block;
+
+  min-width: 150px;
   height: 150px;
   object-fit: cover;
   object-position: center;
@@ -73,5 +75,6 @@
 .description{
   max-width: 600px;
   width: 100%;
+  text-align: justify;
   color: var(--light-gray);
 }
