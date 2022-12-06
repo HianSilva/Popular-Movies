@@ -2,8 +2,9 @@ import { apiKey } from "./api.js"
 const main = document.querySelector("main")
 const searchBar = document.querySelector('#searchbar')
 const searchButton = document.querySelector('#search-button')
+const pageTitle =  document.querySelector('#header-title')
 
-document.querySelector('#header-title').addEventListener('click', () => renderPopularMovies())
+pageTitle.addEventListener('click', () => renderPopularMovies())
 
 window.onload = renderPopularMovies()
 
