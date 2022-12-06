@@ -6,6 +6,10 @@
   color: var(--white);
 }
 
+#header-title{
+  cursor: pointer;
+}
+
 #filter-area{
   display: flex;
   flex-direction: column;
