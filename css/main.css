@@ -66,6 +66,8 @@
 
 .fav-image{
   height: 18px;
+
+  cursor: pointer;
 }
 
 #fav-button:hover img{
